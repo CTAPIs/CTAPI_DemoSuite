@@ -41,6 +41,7 @@
 		4AE0F6B1204827ED00D285D3 /* BaseAPIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAPIViewController.h; sourceTree = "<group>"; };
 		4AE0F6B3204827ED00D285D3 /* ResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultView.h; sourceTree = "<group>"; };
 		4AE0F6B4204827ED00D285D3 /* ResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultView.m; sourceTree = "<group>"; };
+		4AE0F6B92048294900D285D3 /* CTAPI_DemoSuite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTAPI_DemoSuite.h; sourceTree = "<group>"; };
 		62DA61E21366289AAE62FEB5 /* Pods-CTAPI_DemoSuite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTAPI_DemoSuite.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CTAPI_DemoSuite/Pods-CTAPI_DemoSuite.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +95,7 @@
 		4AE0F6A8204826E700D285D3 /* CTAPI_DemoSuite */ = {
 			isa = PBXGroup;
 			children = (
+				4AE0F6B92048294900D285D3 /* CTAPI_DemoSuite.h */,
 				4AE0F6AC204827ED00D285D3 /* BaseAPIViewController */,
 				4AE0F6A9204827ED00D285D3 /* CTPageAPIViewController */,
 			);
