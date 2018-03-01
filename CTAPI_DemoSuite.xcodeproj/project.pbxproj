@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F9B1E30FB8639E464BACACD /* libPods-CTAPI_DemoSuite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2904419015F107BABBCA83 /* libPods-CTAPI_DemoSuite.a */; };
 		4AE0F6942048264000D285D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0F6932048264000D285D3 /* AppDelegate.m */; };
 		4AE0F6972048264000D285D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0F6962048264000D285D3 /* ViewController.m */; };
 		4AE0F69A2048264000D285D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE0F6982048264000D285D3 /* Main.storyboard */; };
 		4AE0F69C2048264000D285D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AE0F69B2048264000D285D3 /* Assets.xcassets */; };
 		4AE0F69F2048264000D285D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE0F69D2048264000D285D3 /* LaunchScreen.storyboard */; };
 		4AE0F6A22048264000D285D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0F6A12048264000D285D3 /* main.m */; };
+		4AE0F6B5204827ED00D285D3 /* CTPageAPIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0F6AA204827ED00D285D3 /* CTPageAPIViewController.m */; };
+		4AE0F6B6204827ED00D285D3 /* BaseAPIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0F6AD204827ED00D285D3 /* BaseAPIViewController.m */; };
+		4AE0F6B7204827ED00D285D3 /* BLAPIManagerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0F6B0204827ED00D285D3 /* BLAPIManagerTableViewCell.m */; };
+		4AE0F6B8204827ED00D285D3 /* ResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE0F6B4204827ED00D285D3 /* ResultView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12032757715E5BF05ECDFC9B /* Pods-CTAPI_DemoSuite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTAPI_DemoSuite.release.xcconfig"; path = "Pods/Target Support Files/Pods-CTAPI_DemoSuite/Pods-CTAPI_DemoSuite.release.xcconfig"; sourceTree = "<group>"; };
+		3B2904419015F107BABBCA83 /* libPods-CTAPI_DemoSuite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CTAPI_DemoSuite.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE0F68F2048264000D285D3 /* CTAPI_DemoSuite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTAPI_DemoSuite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE0F6922048264000D285D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4AE0F6932048264000D285D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +33,15 @@
 		4AE0F69E2048264000D285D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AE0F6A02048264000D285D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AE0F6A12048264000D285D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AE0F6AA204827ED00D285D3 /* CTPageAPIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTPageAPIViewController.m; sourceTree = "<group>"; };
+		4AE0F6AB204827ED00D285D3 /* CTPageAPIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTPageAPIViewController.h; sourceTree = "<group>"; };
+		4AE0F6AD204827ED00D285D3 /* BaseAPIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAPIViewController.m; sourceTree = "<group>"; };
+		4AE0F6AF204827ED00D285D3 /* BLAPIManagerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLAPIManagerTableViewCell.h; sourceTree = "<group>"; };
+		4AE0F6B0204827ED00D285D3 /* BLAPIManagerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLAPIManagerTableViewCell.m; sourceTree = "<group>"; };
+		4AE0F6B1204827ED00D285D3 /* BaseAPIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAPIViewController.h; sourceTree = "<group>"; };
+		4AE0F6B3204827ED00D285D3 /* ResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultView.h; sourceTree = "<group>"; };
+		4AE0F6B4204827ED00D285D3 /* ResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultView.m; sourceTree = "<group>"; };
+		62DA61E21366289AAE62FEB5 /* Pods-CTAPI_DemoSuite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTAPI_DemoSuite.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CTAPI_DemoSuite/Pods-CTAPI_DemoSuite.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F9B1E30FB8639E464BACACD /* libPods-CTAPI_DemoSuite.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +61,8 @@
 			children = (
 				4AE0F6912048264000D285D3 /* CTAPI_DemoSuite */,
 				4AE0F6902048264000D285D3 /* Products */,
+				BC0A392BD46ACAB6958B02F1 /* Pods */,
+				C5793877C5B45FF8737DE73A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +77,7 @@
 		4AE0F6912048264000D285D3 /* CTAPI_DemoSuite */ = {
 			isa = PBXGroup;
 			children = (
+				4AE0F6A8204826E700D285D3 /* CTAPI_DemoSuite */,
 				4AE0F6922048264000D285D3 /* AppDelegate.h */,
 				4AE0F6932048264000D285D3 /* AppDelegate.m */,
 				4AE0F6952048264000D285D3 /* ViewController.h */,
@@ -71,6 +91,70 @@
 			path = CTAPI_DemoSuite;
 			sourceTree = "<group>";
 		};
+		4AE0F6A8204826E700D285D3 /* CTAPI_DemoSuite */ = {
+			isa = PBXGroup;
+			children = (
+				4AE0F6AC204827ED00D285D3 /* BaseAPIViewController */,
+				4AE0F6A9204827ED00D285D3 /* CTPageAPIViewController */,
+			);
+			path = CTAPI_DemoSuite;
+			sourceTree = "<group>";
+		};
+		4AE0F6A9204827ED00D285D3 /* CTPageAPIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4AE0F6AA204827ED00D285D3 /* CTPageAPIViewController.m */,
+				4AE0F6AB204827ED00D285D3 /* CTPageAPIViewController.h */,
+			);
+			path = CTPageAPIViewController;
+			sourceTree = "<group>";
+		};
+		4AE0F6AC204827ED00D285D3 /* BaseAPIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4AE0F6B1204827ED00D285D3 /* BaseAPIViewController.h */,
+				4AE0F6AD204827ED00D285D3 /* BaseAPIViewController.m */,
+				4AE0F6AE204827ED00D285D3 /* BLAPIManagerTableViewCell */,
+				4AE0F6B2204827ED00D285D3 /* ResultView */,
+			);
+			path = BaseAPIViewController;
+			sourceTree = "<group>";
+		};
+		4AE0F6AE204827ED00D285D3 /* BLAPIManagerTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4AE0F6AF204827ED00D285D3 /* BLAPIManagerTableViewCell.h */,
+				4AE0F6B0204827ED00D285D3 /* BLAPIManagerTableViewCell.m */,
+			);
+			path = BLAPIManagerTableViewCell;
+			sourceTree = "<group>";
+		};
+		4AE0F6B2204827ED00D285D3 /* ResultView */ = {
+			isa = PBXGroup;
+			children = (
+				4AE0F6B3204827ED00D285D3 /* ResultView.h */,
+				4AE0F6B4204827ED00D285D3 /* ResultView.m */,
+			);
+			path = ResultView;
+			sourceTree = "<group>";
+		};
+		BC0A392BD46ACAB6958B02F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62DA61E21366289AAE62FEB5 /* Pods-CTAPI_DemoSuite.debug.xcconfig */,
+				12032757715E5BF05ECDFC9B /* Pods-CTAPI_DemoSuite.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5793877C5B45FF8737DE73A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B2904419015F107BABBCA83 /* libPods-CTAPI_DemoSuite.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4AE0F6A52048264000D285D3 /* Build configuration list for PBXNativeTarget "CTAPI_DemoSuite" */;
 			buildPhases = (
+				BC19029B25C40E50E74D3FDD /* [CP] Check Pods Manifest.lock */,
 				4AE0F68B2048264000D285D3 /* Sources */,
 				4AE0F68C2048264000D285D3 /* Frameworks */,
 				4AE0F68D2048264000D285D3 /* Resources */,
+				8D136819D5C80E726CD613E3 /* [CP] Embed Pods Frameworks */,
+				EE850DBD74FB0F55B24E7046 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,12 +224,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8D136819D5C80E726CD613E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTAPI_DemoSuite/Pods-CTAPI_DemoSuite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC19029B25C40E50E74D3FDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CTAPI_DemoSuite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE850DBD74FB0F55B24E7046 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTAPI_DemoSuite/Pods-CTAPI_DemoSuite-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4AE0F68B2048264000D285D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4AE0F6972048264000D285D3 /* ViewController.m in Sources */,
+				4AE0F6B8204827ED00D285D3 /* ResultView.m in Sources */,
+				4AE0F6B5204827ED00D285D3 /* CTPageAPIViewController.m in Sources */,
+				4AE0F6B7204827ED00D285D3 /* BLAPIManagerTableViewCell.m in Sources */,
+				4AE0F6B6204827ED00D285D3 /* BaseAPIViewController.m in Sources */,
 				4AE0F6A22048264000D285D3 /* main.m in Sources */,
 				4AE0F6942048264000D285D3 /* AppDelegate.m in Sources */,
 			);
@@ -276,6 +418,7 @@
 		};
 		4AE0F6A62048264000D285D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62DA61E21366289AAE62FEB5 /* Pods-CTAPI_DemoSuite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -289,6 +432,7 @@
 		};
 		4AE0F6A72048264000D285D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12032757715E5BF05ECDFC9B /* Pods-CTAPI_DemoSuite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,7 @@
+CTAPI_DemoSuite.xcodeproj/xcuserdata/
+CTAPI_DemoSuite.xcworkspace/
+Pods/
+*.swp
+.DS_Store
+CTAPI_DemoSuite.xcodeproj/project.xcworkspace/xcuserdata/
+Podfile.lock
