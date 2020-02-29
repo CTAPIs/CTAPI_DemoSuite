@@ -59,7 +59,7 @@
         [self addSubview:self.textView];
         [self addSubview:self.activityIndicatorView];
     }
-    return self;
+        return self;
 }
 
 - (void)layoutSubviews
